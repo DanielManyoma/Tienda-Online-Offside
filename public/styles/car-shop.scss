@@ -1,0 +1,30 @@
+.products_selection{
+
+
+}
+
+.producto-agregado{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.products_price{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+}
+
+// array de productos añadidos al carrito
+.products_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+

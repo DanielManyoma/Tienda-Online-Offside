@@ -1,0 +1,409 @@
+$color-basic : rgb(235, 146, 38);
+$color_text : white;
+
+body{
+    margin: 0px;
+}
+
+    header{
+        background-image: url(data/Mbappe.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        height: 1080px;
+    }
+    
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 30px 10px 30px;
+
+        .logo{
+
+            background-image: url(data/logooff.png);
+            width: 150px;
+            height: 100px;
+        }
+    
+        ul{
+            margin-left: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+    
+            li{
+                display: inline-block;
+                color: $color_text;
+                list-style: none;
+                margin-right: 30px;
+                font-family: 'Roboto', sans-serif;
+            
+                  &:hover{
+                      color:$color-basic;
+                  }
+                }
+        }
+    
+        &_icon{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-left: 15px;
+    
+            input{
+                width: 200px;
+                height: 20px;
+                visibility: visible;
+                background-color: gainsboro;
+                border-style: none;
+                border-radius:15px;
+            }
+    
+            img{
+                &:hover{   
+                   input{
+                    visibility: visible;
+                    
+                }
+            }
+    
+            }
+    
+        }
+    }
+    
+    
+    
+    .home{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    
+        &_menu_side{
+            background-color: $color-basic;
+            width: 20px;
+            height: 180px;
+            margin-top: 100px;
+    
+            &:hover{
+                width: 70px;
+                height: 180px;
+    
+                img{
+                    visibility: visible;
+                }
+            }
+    
+            img{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                padding: 10px;
+                visibility:hidden;
+            }
+        }
+    
+        &_menu_description{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+            margin-left: 100px;
+            margin-top: 150px;
+            font-family: 'Roboto', sans-serif;
+    
+            p{
+                font-size: 20pt;
+                text-align: center;
+                color: $color_text;
+            }
+        } 
+    }
+    
+    .publicity{
+        background-image: url(https://www.r-gol.com/product_picture/fill_2128x1416_watermark_rgolcom/b0360fbfd131eb364843e5aec918256f.jpg);
+        background-color: black;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 700px;
+    
+        h1{
+            color:$color_text;
+            font-size: 35px;
+            margin-top: 80px;
+        }
+    
+        p{
+            color: $color_text;
+            font-size: 35px;
+            margin-top: 80px;
+        }
+    
+        &_info{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 30px;
+            margin-left: 900px;
+            margin-top: 0px;
+            font-family: 'Roboto', sans-serif;
+        }
+    
+        a{
+            font-size: 15px;
+            
+        }
+    }
+    
+    button{
+        width: 100px;
+        height: 30px;
+        background-color: $color-basic;
+        border-style: none;
+        margin-left: 200px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .imgs-background{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top:300px;
+    
+        button{
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            margin-left: 0px;
+            margin-right: 20px;
+        }
+        
+    }
+    
+        .characteristics{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 70px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        
+            &_one{
+                width: 350px;
+                height: 200px;
+                background-color: gainsboro;
+                border-radius: 20px;
+                font-family: 'Roboto', sans-serif;
+        
+                h2{
+                    margin-top: 30px;
+                    text-align: center;
+                }
+        
+                p{
+                    margin-top: 30px;
+                    text-align: center;
+                }
+        
+                &:hover{
+                    width: 450px;
+                    height: 300px;
+                    background-color:$color-basic;
+                    font-size: 25px;
+                    color: $color_text;
+                }
+            }
+        
+            &_two{
+                width: 350px;
+                height: 200px;
+                background-color: gainsboro;
+                border-radius: 20px;
+                font-family: 'Roboto', sans-serif;
+        
+                h2{
+                    margin-top: 30px;
+                    text-align: center;
+                }
+                p{
+                    margin-top: 30px;
+                    text-align: center;
+                }
+                &:hover{
+                    width: 450px;
+                    height: 300px;
+                    background-color:$color-basic;
+                    font-size: 25px;
+                    color: $color_text;
+                }
+            }
+        
+            &_three{
+                width: 350px;
+                height: 200px;
+                background-color: gainsboro;
+                border-radius: 20px;
+                font-family: 'Roboto', sans-serif;
+        
+                h2{
+                    margin-top: 30px;
+                    text-align: center;
+                }
+        
+                p{
+                    margin-top: 30px;
+                    text-align: center;
+                }
+                &:hover{
+                    width: 450px;
+                    height: 300px;
+                    background-color:$color-basic;
+                    font-size: 25px;
+                    color: $color_text;
+                }
+        
+            }
+        }
+    
+    
+    
+    .brands{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;   
+        background-image: url(data/fondo.jpg);
+        background-position-x: 0px;
+        background-position-y: 0px;
+        background-size: cover;
+    
+        &_adidas{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+    
+            &_info{
+                margin-left: 40px;
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+    
+                h2{
+                    color: $color_text;
+                    margin-bottom: 170px;
+                    margin-bottom: 120px;
+                    font-size: 35px;
+                }
+    
+                a{
+                    width: 60px;
+                    height: 40px;
+                    background-color:  $color-basic;
+                    color: $color_text;
+                }
+                p{
+                    font-size: 22px;
+                }
+                button{
+                    margin-left: 15px;
+                }
+            }
+        }
+        
+    }
+    
+    .brands_nike{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        &_info{
+            margin-right: 55px;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+    
+            h2{
+                color: $color_text;
+                margin-bottom: 120px;
+                font-size: 35px;
+            }
+    
+            p{
+                font-size: 22px;
+            }
+            button{
+                margin-left: 13px;
+            }
+        }
+    }
+    
+    .brands_puma{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        &_info{
+            margin-left: 60px;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+    
+            h2{
+                color: $color_text;
+                margin-bottom: 120px;
+                font-size: 35px;
+            }
+            p{
+                font-size: 22px;
+            }
+            button{
+                margin-left: 15px;
+            }
+        }
+    }
+    
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .side_right {
+        h2{
+            color: $color_text;
+            font-size: 15px;
+            font-family: 'Roboto', sans-serif;
+            margin-right: 20px;
+        }
+    }
+    
+    .side_center{
+        h2{
+            color: $color_text;
+            font-size: 15px;
+            font-family: 'Roboto', sans-serif;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+    .side_left{
+        h2{
+            color: $color_text;
+            font-size: 15px;
+            margin-left: 30vw;
+            font-family: 'Roboto', sans-serif;
+        }
+    } 
+
+

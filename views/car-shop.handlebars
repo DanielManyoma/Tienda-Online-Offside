@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Offside</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/styles/products.css" />
+    
+</head>
+<body>
+        <header>
+    <section class="header_main">
+
+                <article class="menu">
+
+                    <nav>
+                            <img src="/data/logooff.png" alt="logooff" width="150px" height="100px">
+                    </nav>
+            <nav>
+                <ul>
+                    
+                        <li>Productos</li>
+                        <li>Marcas</li>
+                        <li>Tiendas</li>
+                        <li>Contactos</li>
+                </ul>
+                   
+            </nav>
+            
+            <nav class="menu_icon">
+                   <input type="text">
+                    <img class="search" src="/data/search.png" alt="search" width="50px" height="40px">
+                    <img src="/data/user.png" alt="user" width="50px" height="40px">
+            </nav>
+            
+
+        </article>
+
+        
+</header>
+        <div class="products_title">
+          <h2>Carrito de compras</h2>
+        </div>
+              <section class="products_selection">
+                  <article class="products_list">
+                      <div data-titulo={{Titulo}} class="producto-agregado">
+                          <input type="checkbox" class="producto_carro">
+                          <img src="{{imagen}}" alt="">
+                          <h2>{{titulo}}</h2>
+                          <h3>{{precio}}</h3>
+                          
+                      </div>
+                  </article>
+                  <article class="products_price">
+                      <div>
+                      <h2>Subtotal</h2>
+                      <p></p>
+                      </div>
+
+                      <div class="list_precios">
+                          <p>{{titulo}}</p>
+                          <p>{{precio}}</p>
+                    </div>
+
+                    <div>
+                        <button type="button"> Pagar</button>
+                    </div>
+
+                      
+
+                  </article>
+              </section>
+                
+                
+        <footer>
+                        <article class="side_left">
+                            <h2>Nuestras tiendas</h2>
+                            <h2>Sobre Nosotros</h2>
+                        </article>
+                        <article class="side_center">
+                            <h2>Contactenos</h2>
+                            <article class="side_center_networks">
+                                    <img src="/data/facebook.png" alt="facebook" width="40px" height="40px">
+                                    <img src="/data/instagram.png" alt="instagram" width="40px" height="45px">
+                                    <img src="/data/twitter.png" alt="twitter" width="40px" height="40px">
+                            </article>
+                            
+                        </article>
+                        <article class="side_right">
+                            <h2>Trabaja con nosotros</h2>
+                            <h2>Preguntas frecuentes</h2>
+                        </article>
+                    </footer>
+        <script src="products.js"></script>
+</body>
+</html>

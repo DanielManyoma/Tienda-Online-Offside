@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Offside</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/styles/products.css" />
+    
+</head>
+<body>
+        <header>
+    <section class="header_main">
+
+                <article class="menu">
+
+                    <nav>
+                            <img src="/data/logooff.png" alt="logooff" width="150px" height="100px">
+                    </nav>
+            <nav>
+                <ul>
+                    
+                        <li>Productos</li>
+                        <li>Marcas</li>
+                        <li>Tiendas</li>
+                        <li>Contactos</li>
+                </ul>
+                   
+            </nav>
+            
+            <nav class="menu_icon">
+                   <input type="text">
+                    <img class="search" src="/data/search.png" alt="search" width="50px" height="40px">
+                    <img src="/data/user.png" alt="user" width="50px" height="40px">
+            </nav>
+            
+
+        </article>
+
+        <section class="products">
+
+                <article class="products_menu_side">
+                        <img src="/data/facebook.png" alt="facebook" width="40px" height="40px">
+                        <img src="/data/instagram.png" alt="instagram" width="40px" height="45px">
+                        <img src="/data/twitter.png" alt="twitter" width="40px" height="40px">
+                </article>
+
+                <article class="products_description">
+                        <img src="/data/logooff.png" alt="logooff" width="245px" height="187px">
+                        <p>Lo mejor del mundo del futbol a tu alcance.</p>
+                    </article>
+        
+                    
+        </section>
+        
+        </section>
+</header>
+        <div class="products_title">
+          <h2>Productos</h2>
+        </div>
+
+        <section class="catalogo">
+        
+                <article class="filters-content">
+
+                        <div class="filters">
+
+                        <div>
+                                <h2>Categoría</h2>
+                                <form action="" method="get">
+                                        <input type="checkbox" name="female" class="mujer"> Mujer <br>
+                                        <input type="checkbox" name="male" class="hombre"> Hombre <br>
+                                </form>
+                        </div>
+                        <div>
+                                <h2>Indumentaria</h2>
+                                <form action="" method="get">
+                                        <input type="checkbox" name="guayos" class="guayos" > Guayos <br>
+                                        <input type="checkbox" name="t-shirt" class="camisetas"> Camisetas <br>
+                                        <input type="checkbox" name="shorts" class="pantalonetas"> Pantalonetas <br>
+                                        <input type="checkbox" name="room shoes" class="futbol_sala"> Futbol sala <br>
+                                </form>
+                        </div>
+                        <div>
+                                <h2>Precio</h2>
+                                <form action="" method="get">
+                                        <input type="checkbox" name="price_one" class="rango_uno"> Hasta $75.000 <br>
+                                        <input type="checkbox" name="price_two" class="rango_dos"> $76.000 - $150.000 <br>
+                                        <input type="checkbox" name="price_three" class="rango_tres"> $151.000 - $210.000 <br>
+                                        <input type="checkbox" name="price_four" class="rango_cuatro"> $211.000 - $300.000 <br>
+                                        <input type="checkbox" name="price_five" class="rango_cinco"> Más de 300.000 <br>
+                                </form>
+                        </div>
+                        <div>
+                                <h2>Marca</h2>
+                                <form action="" method="get">
+                                        <input type="checkbox" name="nike" class="nike"> Nike <br>
+                                        <input type="checkbox" name="adidas" class="adidas"> Adidas <br>
+                                        <input type="checkbox" name="puma" class="puma"> Puma <br>
+                                </form>
+                        </div>
+                        </div>
+
+                        
+                </article>
+                <article class="list-products">
+
+                        <div {{#each producto}} class="grid-container">
+
+                                <div data-titulo:'{{titulo}}' class="item">
+                                        <img src="{{imagen}}" class="imagen_producto">
+                                        <h3 class="titulo_producto">{{titulo}}</h3>
+                                        <h2 class="precio_producto">{{precio}}</h2>
+                                </div>
+                                <!--<div class="grid-item">
+                                        <button type="button">
+                                        <img src="/data/dybala.png"{{imagen}} alt="Juventus" width="250px" height="250px">
+                                        <h3>Camiseta Juventus 2018</h3>
+                                        <h2>$170.000</h2>
+                                        </button>
+                                </div>
+                                <div class="grid-item">
+                                        <img src="/data/hypervenom.png" alt="Hypervenom" width="250px" height="200px">
+                                        <h3>Nike Hypervenom</h3>
+                                        <h2>$230.000</h2>
+                                </div>
+                                <div class="grid-item">
+                                        <img src="/data/psg.png" alt="Juventus" width="250px" height="250px">
+                                        <h3>Camiseta PSG 2018</h3>
+                                        <h2>$180.000</h2>
+                                </div>
+                                <div class="grid-item">
+                                                <img src="/data/phantom.png" alt="Phantom" width="250px" height="250px">
+                                                <h3>Nike Hypervenom Phatom</h3>
+                                                <h2>$260.000</h2>
+                                </div>
+                                <div class="grid-item">
+                                                <img src="/data/bayer.png" alt="Bayer" width="250px" height="250px">
+                                                <h3>Camiseta Bayer 2018</h3>
+                                                <h2>$175.000</h2>
+                                </div>
+                                <div class="grid-item">
+                                                <img src="/data/evopower.png" alt="Evopower" width="250px" height="250px">
+                                                <h3>Puma Evopower</h3>
+                                                <h2>$220.000</h2>
+                                </div>
+                                <div class="grid-item">
+                                                <img src="/data/evopower.png" alt="Madrid" width="250px" height="250px">
+                                                <h3>Camiseta Real Madrid 2018</h3>
+                                                <h2>$185.000</h2>
+                                </div>
+                                <div class="grid-item">
+                                                <img src="/data/nemeziz.png" alt="Nemezis" width="250px" height="250px">
+                                                <h3>Adidas Nemezis</h3>
+                                                <h2>$265.000</h2>
+                                </div>
+                                <div class="grid-item">
+                                                <img src="/data/alemania.png" alt="Alemania" width="250px" height="250px">
+                                                <h3>Camiseta Alemania 1990</h3>
+                                                <h2>$265.000</h2>
+                                </div>
+                                <div class="grid-item">
+                                                <img src="/data/mercurial.png" alt="Mercurial" width="250px" height="250px">
+                                                <h3>Nike Mercurial</h3>
+                                                <h2>$170.000</h2>
+                                </div>
+                                <div class="grid-item">
+                                                <img src="/data/colombia.png" alt="Colombia" width="250px" height="250px">
+                                                <h3>Camiseta Colombia Femenina</h3>
+                                                <h2>$235.000</h2>
+                                </div>
+                                <div class="grid-item">
+                                                <img src="/data/hypervenom_amarillo.png" alt="Hypervenom" width="250px" height="250px">
+                                                <h3>Guayos Hypervenom</h3>
+                                                <h2>$290.000</h2>
+                                </div>-->
+                                
+
+                        </div>
+
+                </article>
+        </section>
+        <footer>
+                        <article class="side_left">
+                            <h2>Nuestras tiendas</h2>
+                            <h2>Sobre Nosotros</h2>
+                        </article>
+                        <article class="side_center">
+                            <h2>Contactenos</h2>
+                            <article class="side_center_networks">
+                                    <img src="/data/facebook.png" alt="facebook" width="40px" height="40px">
+                                    <img src="/data/instagram.png" alt="instagram" width="40px" height="45px">
+                                    <img src="/data/twitter.png" alt="twitter" width="40px" height="40px">
+                            </article>
+                            
+                        </article>
+                        <article class="side_right">
+                            <h2>Trabaja con nosotros</h2>
+                            <h2>Preguntas frecuentes</h2>
+                        </article>
+                    </footer>
+        <script src="products.js"></script>
+</body>
+</html>

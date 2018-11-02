@@ -1,0 +1,515 @@
+body {
+  margin: 0px;
+}
+
+header {
+  background-image: url(data/Mbappe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 1080px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 30px 10px 30px;
+}
+
+.menu .logo {
+  background-image: url(data/logooff.png);
+  width: 150px;
+  height: 100px;
+}
+
+.menu ul {
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.menu ul li {
+  display: inline-block;
+  color: white;
+  list-style: none;
+  margin-right: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu ul li:hover {
+  color: #eb9226;
+}
+
+.menu_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 15px;
+}
+
+.menu_icon input {
+  width: 200px;
+  height: 20px;
+  visibility: visible;
+  background-color: gainsboro;
+  border-style: none;
+  border-radius: 15px;
+}
+
+.menu_icon img:hover input {
+  visibility: visible;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.home_menu_side {
+  background-color: #eb9226;
+  width: 20px;
+  height: 180px;
+  margin-top: 100px;
+}
+
+.home_menu_side:hover {
+  width: 70px;
+  height: 180px;
+}
+
+.home_menu_side:hover img {
+  visibility: visible;
+}
+
+.home_menu_side img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10px;
+  visibility: hidden;
+}
+
+.home_menu_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+  margin-top: 150px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home_menu_description p {
+  font-size: 20pt;
+  text-align: center;
+  color: white;
+}
+
+.publicity {
+  background-image: url(https://www.r-gol.com/product_picture/fill_2128x1416_watermark_rgolcom/b0360fbfd131eb364843e5aec918256f.jpg);
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+}
+
+.publicity h1 {
+  color: white;
+  font-size: 35px;
+  margin-top: 80px;
+}
+
+.publicity p {
+  color: white;
+  font-size: 35px;
+  margin-top: 80px;
+}
+
+.publicity_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 30px;
+  margin-left: 900px;
+  margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.publicity a {
+  font-size: 15px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #eb9226;
+  border-style: none;
+  margin-left: 200px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.imgs-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 300px;
+}
+
+.imgs-background button {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.characteristics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.characteristics_one {
+  width: 350px;
+  height: 200px;
+  background-color: gainsboro;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.characteristics_one h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.characteristics_one p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.characteristics_one:hover {
+  width: 450px;
+  height: 300px;
+  background-color: #eb9226;
+  font-size: 25px;
+  color: white;
+}
+
+.characteristics_two {
+  width: 350px;
+  height: 200px;
+  background-color: gainsboro;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.characteristics_two h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.characteristics_two p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.characteristics_two:hover {
+  width: 450px;
+  height: 300px;
+  background-color: #eb9226;
+  font-size: 25px;
+  color: white;
+}
+
+.characteristics_three {
+  width: 350px;
+  height: 200px;
+  background-color: gainsboro;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.characteristics_three h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.characteristics_three p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.characteristics_three:hover {
+  width: 450px;
+  height: 300px;
+  background-color: #eb9226;
+  font-size: 25px;
+  color: white;
+}
+
+.brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(data/fondo.jpg);
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-size: cover;
+}
+
+.brands_adidas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.brands_adidas_info {
+  margin-left: 40px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.brands_adidas_info h2 {
+  color: white;
+  margin-bottom: 170px;
+  margin-bottom: 120px;
+  font-size: 35px;
+}
+
+.brands_adidas_info a {
+  width: 60px;
+  height: 40px;
+  background-color: #eb9226;
+  color: white;
+}
+
+.brands_adidas_info p {
+  font-size: 22px;
+}
+
+.brands_adidas_info button {
+  margin-left: 15px;
+}
+
+.brands_nike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.brands_nike_info {
+  margin-right: 55px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.brands_nike_info h2 {
+  color: white;
+  margin-bottom: 120px;
+  font-size: 35px;
+}
+
+.brands_nike_info p {
+  font-size: 22px;
+}
+
+.brands_nike_info button {
+  margin-left: 13px;
+}
+
+.brands_puma {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.brands_puma_info {
+  margin-left: 60px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.brands_puma_info h2 {
+  color: white;
+  margin-bottom: 120px;
+  font-size: 35px;
+}
+
+.brands_puma_info p {
+  font-size: 22px;
+}
+
+.brands_puma_info button {
+  margin-left: 15px;
+}
+
+footer {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.side_right h2 {
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 20px;
+}
+
+.side_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.side_center h2 {
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.side_left h2 {
+  color: white;
+  font-size: 15px;
+  margin-left: 30vw;
+  font-family: 'Roboto', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
